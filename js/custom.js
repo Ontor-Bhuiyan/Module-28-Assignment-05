@@ -36,6 +36,7 @@ document.querySelectorAll('.copy-button').forEach(function(button){
 });
 // 2.copy count and number paste section end
 
+
 // 3.call and call history section start
 // call history data
 let callHistoryData = [];
