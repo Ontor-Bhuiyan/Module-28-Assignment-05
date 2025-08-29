@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Noto Sans Bangla Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
+/* Noto Sans Bangla Font Declare */
+.noto-sans-bangla{
+    font-family: "Noto Sans Bengali", sans-serif;
+}
+
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Roboto Font Declare */
+.roboto-english{
+    font-family: "Roboto", sans-serif;
+}
