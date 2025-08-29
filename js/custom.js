@@ -30,8 +30,12 @@ document.querySelectorAll('.copy-button').forEach(function(button){
         copyCountVar = copyCountVar + 1;
         document.getElementById('copy-count').innerText = copyCountVar;
 
-        const copyNumber = document.getElementById('copy-number').innerText;
+        // const copyNumber = document.getElementById('copy-number').innerText;
+        // navigator.clipboard.writeText(copyNumber);
+
+        const copyNumber = button.closest('.button-one').querySelector('.button-two').innerText;
         navigator.clipboard.writeText(copyNumber);
+
     });
 });
 // 2.copy count and number paste section end
